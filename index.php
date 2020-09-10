@@ -35,7 +35,7 @@ $app->get(
     }
 );
 
-$app->get('produtos', function(){
+$app->get('/produtos', function(){
 
     $sql = new Sql();
 
